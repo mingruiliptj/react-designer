@@ -68,7 +68,7 @@ class App() {
             </p>
           </div>
           <div className={classes.preview}>
-            <MondrianExample />
+            {/* <MondrianExample /> */}
           </div>
         </div>
 
@@ -99,7 +99,7 @@ class App() {
             </p>
           </div>
           <div className={classes.preview}>
-            <SwissStyleExample />
+            {/* <SwissStyleExample /> */}
           </div>
         </div>
 
@@ -124,7 +124,7 @@ class App() {
             </p>
           </div>
           <div className={classes.preview}>
-            <MockupDesignerExample />
+            {/* <MockupDesignerExample /> */}
           </div>
         </div>
 
@@ -143,7 +143,7 @@ class App() {
             </p>
           </div>
           <div className={classes.preview} style={{marginBottom: 40}}>
-            <TshirtDesignerExample />
+            {/* <TshirtDesignerExample /> */}
           </div>
           <p className={classes.info} style={{
             clear: "left",
