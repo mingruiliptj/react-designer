@@ -9,13 +9,12 @@ import SVGRenderer from './SVGRenderer';
 import Handler from './Handler';
 import {modes} from './constants';
 import * as actions from './actions';
-import {Text, Path, Rect, Circle, Image} from './objects';
+import { Path, Rect, Circle, Image} from './objects';
 import PanelList from './panels/PanelList';
 
 class Designer extends Component {
   static defaultProps = {
     objectTypes: {
-      'text': Text,
       'rectangle': Rect,
       'circle': Circle,
       'polygon': Path,

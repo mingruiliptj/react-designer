@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import SVGRenderer from './SVGRenderer';
 
-import {Text, Path, Rect, Circle, Image} from './objects';
+import { Path, Rect, Circle, Image} from './objects';
 
 class Preview extends Component {
   static defaultProps = {
     objectTypes: {
-      'text': Text,
       'rectangle': Rect,
       'circle': Circle,
       'polygon': Path,

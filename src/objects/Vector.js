@@ -3,14 +3,13 @@ import {modes} from '../constants';
 import Icon from '../Icon';
 import _ from 'lodash';
 
-import {SizePanel, TextPanel,
+import {SizePanel,
         StylePanel, ArrangePanel, ImagePanel} from '../panels';
 
 
 export default class Vector extends Component {
   static panels = [
     SizePanel,
-    TextPanel,
     StylePanel,
     ImagePanel,
     ArrangePanel
